@@ -67,7 +67,7 @@ def generate():
         fl.write(base64.b64decode(gui_c))
         fl.write(base64.b64decode(gui_d))
         fl.write(base64.b64decode(gui_e))
-        print(Style.BRIGHT + Fore.RED + "\n Your file was save as " + Fore.YELLOW + "{0}.py".format(ransomware_name) + Fore.RED + ".\n")
+        print(Style.BRIGHT + Fore.RED + "\n Your file was saved as " + Fore.YELLOW + "{0}.py".format(ransomware_name) + Fore.RED + ".\n")
         sys.exit()
 
 # =================================================================
