@@ -21,7 +21,7 @@ def generate():
     main_key = input(Style.BRIGHT + Fore.RED + "[*] Main encryption key: ('r' to random) " + Style.RESET_ALL).lower()
     if main_key == "r":
         main_key = secrets.token_urlsafe(16)
-        print(Style.BRIGHT + Fore.RED + "    Your key is {0}.".format(main_key))
+        print(Style.BRIGHT + Fore.RED + "    Your key is " + Fore.YELLOW + "{0}".format(main_key) + Fore.RED  +".")
     # Contact email:
     contact_email = input(Style.BRIGHT + Fore.RED + "[*] Contact email: " + Style.RESET_ALL).lower()
     # =================================================================
